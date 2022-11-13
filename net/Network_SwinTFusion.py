@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from net.BasicBlock import UNetEncoder, UNetDecoder, UNetUpSamplingBlock, UNetConvBlock, ConvNormRelu, UNetUpSamplingBlock
 from net.Network_SwinT import SwinTransformer
 
-
+## 2D version the input data
 class TFusion(nn.Module):
     def __init__(self, embedding_dim=1024, feature_size=8):
         super(TFusion, self).__init__()
